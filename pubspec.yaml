@@ -1,0 +1,30 @@
+name: twenty_forty_eight
+
+description: copy of the popular 2048 game.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  audioplayers: ^4.0.1
+  google_fonts: ^4.0.3
+  sqflite: ^2.2.7
+  path: ^1.8.2
+  flutter:
+    sdk: flutter
+  flutter_swipe_detector: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+      - assets/db.db
+      - assets/pop.mp3
+  uses-material-design: true
